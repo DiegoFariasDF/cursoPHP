@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    bottom: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #2b124c, #522b5b, #854f9c);
+}
+
+h1{
+    color: #fbe4d8;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    width: 40vh;
+    padding: 5% 5% 5% 5%;
+    background-color: #2b124c;
+    border-radius: 30px;
+    color: #fbe4d8;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    align-items: center;
+    
+}
+
+form label{
+color: #fbe4d8;
+font-size: 25px;
+}
+
+#nome, #sobrenome{
+    height: 40px;
+    border-radius: 10px;
+    background-color: #854f9c;
+    color: #fbe4d8;
+    width: 40vh;
+}
+
+.enviar{
+    height: 40px;
+    border-radius: 10px;
+    background-color: #522b5b;
+    color: #fbe4d8;
+    margin-top: 20px;
+    width: 20vh;
+
+}
